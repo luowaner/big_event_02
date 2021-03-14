@@ -78,10 +78,8 @@ $(function () {
                 // 保存token,未来借口需要用到token
                 localStorage.setItem('token', res.token);
                 // 跳转
-                location.href = '/index.html'
+                location.href='/index.html'
             }
         });
-    });
-
-    
+    })
 })
