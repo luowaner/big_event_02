@@ -29,7 +29,7 @@ function getUserInof() {
         // },
 
         success: (res) => {
-            console.log(res);
+            // console.log(res);
             // 判定:如果请求失败
             if (res.status !== 0) {
                 return layui.layer.msg(res.message)
